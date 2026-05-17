@@ -74,8 +74,20 @@ const SkillsSection = () => {
           icon: <BsFileEarmarkCode className="w-4 h-4 text-[#1572B6]" />,
         },
         {
+          name: "SCSS",
+          icon: <BsFileEarmarkCode className="w-4 h-4 text-[#CC6699]" />,
+        },
+        {
+          name: "Less",
+          icon: <BsFileEarmarkCode className="w-4 h-4 text-[#1D365D]" />,
+        },
+        {
           name: "Bootstrap",
           icon: <Layout className="w-4 h-4 text-[#7952B3]" />,
+        },
+        {
+          name: "Tailwind CSS",
+          icon: <Layout className="w-4 h-4 text-[#38BDF8]" />,
         },
         {
           name: "Responsive Design",
@@ -91,6 +103,10 @@ const SkillsSection = () => {
         {
           name: "Node.js",
           icon: <FaNodeJs className="w-4 h-4 text-[#339933]" />,
+        },
+        {
+          name: "NestJS",
+          icon: <BsGrid1X2 className="w-4 h-4 text-[#E0234E]" />,
         },
         {
           name: "Express.JS",
@@ -124,6 +140,42 @@ const SkillsSection = () => {
           icon: <BsFileEarmarkCode className="w-4 h-4 text-[#F7DF1E]" />,
         },
         {
+          name: "TypeScript",
+          icon: <BsFileEarmarkCode className="w-4 h-4 text-[#3178C6]" />,
+        },
+        {
+          name: "Java",
+          icon: <BsFileEarmarkCode className="w-4 h-4 text-[#F97316]" />,
+        },
+        {
+          name: "PHP",
+          icon: <BsFileEarmarkCode className="w-4 h-4 text-[#777BB4]" />,
+        },
+        {
+          name: "C#",
+          icon: <BsFileEarmarkCode className="w-4 h-4 text-[#A855F7]" />,
+        },
+        {
+          name: "Dart",
+          icon: <BsFileEarmarkCode className="w-4 h-4 text-[#0175C2]" />,
+        },
+        {
+          name: "C",
+          icon: <BsFileEarmarkCode className="w-4 h-4 text-[#A8B9CC]" />,
+        },
+        {
+          name: "C++",
+          icon: <BsFileEarmarkCode className="w-4 h-4 text-[#00599C]" />,
+        },
+        {
+          name: "Kotlin",
+          icon: <BsFileEarmarkCode className="w-4 h-4 text-[#7F52FF]" />,
+        },
+        {
+          name: "Hack",
+          icon: <BsFileEarmarkCode className="w-4 h-4 text-[#EC3750]" />,
+        },
+        {
           name: "SQL",
           icon: <Database className="w-4 h-4 text-[#A5B4FC]" />,
         },
@@ -137,10 +189,16 @@ const SkillsSection = () => {
         { name: "Git", icon: <FaGitAlt className="w-4 h-4 text-[#F05032]" /> },
         { name: "GitHub", icon: <BsGrid1X2 className="w-4 h-4 text-white" /> },
         { name: "Vite", icon: <SiVite className="w-4 h-4 text-[#646CFF]" /> },
+        { name: "CMake", icon: <BsGrid1X2 className="w-4 h-4 text-[#64A5FF]" /> },
+        {
+          name: "Dockerfile",
+          icon: <FaDocker className="w-4 h-4 text-[#2496ED]" />,
+        },
         {
           name: "Docker",
           icon: <FaDocker className="w-4 h-4 text-[#2496ED]" />,
         },
+        { name: "Flutter", icon: <BsGrid1X2 className="w-4 h-4 text-[#54C5F8]" /> },
       ],
     },
     {

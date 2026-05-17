@@ -55,19 +55,19 @@ const ExperienceSection = () => {
   const experiences = [
     {
       icon: Network,
-      title: "Developpeur FullStack - Gestion de stock",
-      company: "Ecole Nationale d'Informatique, Fianarantsoa",
-      period: "Juil. 2023 - Aout 2023",
+      title: "Developpeur FullStack - MiniSocialNetwork",
+      company: "Projet GitHub - BackMiniSocialNetwork",
+      period: "2026",
       description:
-        "Conception et developpement d'une interface de gestion des entrees/sorties de stock avec tableau de bord pour le suivi des niveaux en temps reel. Technologies : VueJS, HTML5, CSS3, Bootstrap.",
+        "Developpement du backend d'un mini reseau social avec JavaScript et une architecture API orientee fonctionnalites sociales. Projet disponible sur GitHub : BackMiniSocialNetwork.",
     },
     {
       icon: Layers,
-      title: "Developpeur FullStack - Systeme de pointage",
-      company: "Ecole Nationale d'Informatique, Fianarantsoa",
-      period: "Avr. 2023 - Juin 2023",
+      title: "Developpeur FullStack - notes-app-fullstack",
+      company: "Projet GitHub - notes-app-fullstack",
+      period: "2026",
       description:
-        "Developpement d'une application web de gestion des presences, API REST Express.JS, modelisation Sequelize/MySQL et tableau de bord administrateur pour les rapports.",
+        "Creation d'une application fullstack de gestion de notes avec TypeScript, React, NestJS, PostgreSQL, Prisma, JWT, Swagger et Docker.",
     },
     {
       icon: Code2,
