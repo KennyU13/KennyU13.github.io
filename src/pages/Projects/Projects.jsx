@@ -7,7 +7,7 @@ const projects = [
     title: "Notes App Fullstack",
     description:
       "Application de gestion de notes personnelles en monorepo avec API REST NestJS, PostgreSQL, Prisma, JWT, Swagger, React 18, Vite, TypeScript, Tailwind CSS et Zustand.",
-    image: "https://opengraph.githubassets.com/1/KennyU13/notes-app-fullstack",
+    image: "/project-demos/notes-app-fullstack.png",
     color: "#5196fd",
     stack: ["NestJS", "React", "PostgreSQL", "Prisma", "Docker"],
     githubLink: "https://github.com/KennyU13/notes-app-fullstack",
@@ -16,7 +16,7 @@ const projects = [
     title: "E-Resto Hotel",
     description:
       "Projet Bonita Studio pour la gestion des reservations hotelieres, facturation, paiement, depart des chambres, menage, verification de stock et suivi comptable journalier.",
-    image: "https://opengraph.githubassets.com/1/KennyU13/e-resto",
+    image: "/project-demos/e-resto.png",
     color: "#8f89ff",
     stack: ["Bonita BPM", "Java", "Processus metier"],
     githubLink: "https://github.com/KennyU13/e-resto",
@@ -25,19 +25,46 @@ const projects = [
     title: "Code-ZahIT-ENI",
     description:
       "Projet web ENI principalement realise avec Vue, JavaScript et CSS, presente parmi les projets epingles du profil GitHub.",
-    image: "https://opengraph.githubassets.com/1/KennyU13/Code-ZahIT-ENI",
+    image: "/project-demos/code-zahit-eni.png",
     color: "#34d399",
     stack: ["Vue", "JavaScript", "CSS"],
     githubLink: "https://github.com/KennyU13/Code-ZahIT-ENI",
   },
   {
-    title: "Back_ExpressJS",
+    title: "Portfolio Main",
     description:
-      "Backend Express.js avec Sequelize, MySQL et authentification JWT, concu comme base API pour des applications web fullstack.",
-    image: "https://opengraph.githubassets.com/1/KennyU13/Back_ExpressJS",
+      "Portfolio personnel construit avec React, Vite, Tailwind CSS v3 et Docker pour presenter mon profil, mes competences, mon parcours et mes projets.",
+    image: "/project-demos/portfolio-main.png",
     color: "#ed649e",
-    stack: ["Express.JS", "Sequelize", "MySQL", "JWT"],
-    githubLink: "https://github.com/KennyU13/Back_ExpressJS",
+    stack: ["React", "Vite", "Tailwind CSS", "Docker"],
+    githubLink: "https://github.com/KennyU13/portfolio-main",
+  },
+  {
+    title: "RDP-Parking-Simulator",
+    description:
+      "Simulation de parking realisee avec Vue et JavaScript, presentee dans mes projets GitHub pour illustrer la logique de gestion et l'interface utilisateur.",
+    image: "/project-demos/rdp-parking-simulator.png",
+    color: "#f59e0b",
+    stack: ["Vue", "JavaScript", "HTML"],
+    githubLink: "https://github.com/KennyU13/RDP-Parking-Simulator",
+  },
+  {
+    title: "JAVA_Gestion",
+    description:
+      "Application de gestion developpee en Java, orientee pratique de la programmation objet et structuration d'une application de gestion.",
+    image: "/project-demos/java-gestion.png",
+    color: "#f97316",
+    stack: ["Java", "Gestion", "OOP"],
+    githubLink: "https://github.com/KennyU13/JAVA_Gestion",
+  },
+  {
+    title: "PHP_Gestion",
+    description:
+      "Projet de gestion web construit autour de PHP, JavaScript et CSS pour travailler les bases d'une application web dynamique.",
+    image: "/project-demos/php-gestion.png",
+    color: "#777bb4",
+    stack: ["PHP", "JavaScript", "CSS"],
+    githubLink: "https://github.com/KennyU13/PHP_Gestion",
   },
 ];
 

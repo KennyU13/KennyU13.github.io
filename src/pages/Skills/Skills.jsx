@@ -74,14 +74,6 @@ const SkillsSection = () => {
           icon: <BsFileEarmarkCode className="w-4 h-4 text-[#1572B6]" />,
         },
         {
-          name: "SCSS",
-          icon: <BsFileEarmarkCode className="w-4 h-4 text-[#CC6699]" />,
-        },
-        {
-          name: "Less",
-          icon: <BsFileEarmarkCode className="w-4 h-4 text-[#1D365D]" />,
-        },
-        {
           name: "Bootstrap",
           icon: <Layout className="w-4 h-4 text-[#7952B3]" />,
         },
@@ -152,28 +144,12 @@ const SkillsSection = () => {
           icon: <BsFileEarmarkCode className="w-4 h-4 text-[#777BB4]" />,
         },
         {
-          name: "C#",
-          icon: <BsFileEarmarkCode className="w-4 h-4 text-[#A855F7]" />,
-        },
-        {
           name: "Dart",
           icon: <BsFileEarmarkCode className="w-4 h-4 text-[#0175C2]" />,
         },
         {
-          name: "C",
-          icon: <BsFileEarmarkCode className="w-4 h-4 text-[#A8B9CC]" />,
-        },
-        {
-          name: "C++",
-          icon: <BsFileEarmarkCode className="w-4 h-4 text-[#00599C]" />,
-        },
-        {
           name: "Kotlin",
           icon: <BsFileEarmarkCode className="w-4 h-4 text-[#7F52FF]" />,
-        },
-        {
-          name: "Hack",
-          icon: <BsFileEarmarkCode className="w-4 h-4 text-[#EC3750]" />,
         },
         {
           name: "SQL",

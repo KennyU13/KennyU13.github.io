@@ -48,18 +48,20 @@ Repository GitHub:
 
 ## Competences Mises En Avant
 
-- Front-end: ReactJS, VueJS, HTML5, CSS3, SCSS, Less, Bootstrap, Tailwind CSS
+- Front-end: ReactJS, VueJS, HTML5, CSS3, Bootstrap, Tailwind CSS
 - Back-end: Node.js, Express.JS, NestJS, REST APIs
 - Bases de donnees: MySQL, PostgreSQL, Sequelize, Prisma
-- Langages: JavaScript, TypeScript, Java, PHP, C#, Dart, C, C++, Kotlin, SQL
+- Langages: JavaScript, TypeScript, Java, PHP, Dart, Kotlin, SQL
 - Outils: Git, GitHub, Docker, Vite, CMake, Flutter
 
 ## Projets
 
 - [notes-app-fullstack](https://github.com/KennyU13/notes-app-fullstack)
-- [BackMiniSocialNetwork](https://github.com/KennyU13/BackMiniSocialNetwork)
+- [portfolio-main](https://github.com/KennyU13/portfolio-main)
+- [RDP-Parking-Simulator](https://github.com/KennyU13/RDP-Parking-Simulator)
 - [Code-ZahIT-ENI](https://github.com/KennyU13/Code-ZahIT-ENI)
-- [Back_ExpressJS](https://github.com/KennyU13/Back_ExpressJS)
+- [JAVA_Gestion](https://github.com/KennyU13/JAVA_Gestion)
+- [PHP_Gestion](https://github.com/KennyU13/PHP_Gestion)
 - [e-resto](https://github.com/KennyU13/e-resto)
 
 ## Installation Locale
