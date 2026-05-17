@@ -6,7 +6,7 @@ Le site presente mon profil, mes competences, mon parcours, mes projets GitHub, 
 
 ## Demo
 
-![Demo du portfolio](https://opengraph.githubassets.com/1/KennyU13/portfolio-main)
+![Demo du portfolio](docs/portfolio-demo.png)
 
 Demo locale avec Vite:
 
