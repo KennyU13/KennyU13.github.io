@@ -1,5 +1,5 @@
-import React from "react";
-import { Code2, Activity, Cpu, Layers, Network, Binary } from "lucide-react";
+import { Code2, Layers, Network } from "lucide-react";
+import PropTypes from "prop-types";
 
 const ExperienceCard = ({
   title,
@@ -55,27 +55,27 @@ const ExperienceSection = () => {
   const experiences = [
     {
       icon: Network,
-      title: "WordPress Developer",
-      company: "Fiverr",
-      period: "2019 - 2020",
+      title: "Developpeur FullStack - Gestion de stock",
+      company: "Ecole Nationale d'Informatique, Fianarantsoa",
+      period: "Juil. 2023 - Aout 2023",
       description:
-        "Worked on developing and customizing WordPress websites for clients globally.",
+        "Conception et developpement d'une interface de gestion des entrees/sorties de stock avec tableau de bord pour le suivi des niveaux en temps reel. Technologies : VueJS, HTML5, CSS3, Bootstrap.",
     },
     {
       icon: Layers,
-      title: "Junior Frontend Developer",
-      company: "Sera Programmer",
-      period: "2021 - 2023",
+      title: "Developpeur FullStack - Systeme de pointage",
+      company: "Ecole Nationale d'Informatique, Fianarantsoa",
+      period: "Avr. 2023 - Juin 2023",
       description:
-        "Assisted in building and optimizing user interfaces with a focus on responsive and interactive designs.",
+        "Developpement d'une application web de gestion des presences, API REST Express.JS, modelisation Sequelize/MySQL et tableau de bord administrateur pour les rapports.",
     },
     {
       icon: Code2,
-      title: "JavaScript Developer",
-      company: "OlovJS (Sera Programmer)",
-      period: "2023 - Present",
+      title: "Developpeur Front-end - Site vitrine",
+      company: "Competition DevHunt - ENI Fianarantsoa",
+      period: "Aout 2022",
       description:
-        "Contributed to developing JavaScript libraries and enhancing framework functionalities.",
+        "Realisation d'un site vitrine responsive dans un delai contraint, avec attention au design, a l'ergonomie et a la qualite de livraison. Technologies : JavaScript, HTML5, CSS3, Bootstrap.",
     },
   ];
 
@@ -109,12 +109,12 @@ const ExperienceSection = () => {
           <div className="flex flex-col items-center space-y-8 mb-20">
             <div className="relative">
               <h2 className="text-5xl md:text-7xl font-black text-transparent bg-gradient-to-r from-teal-400 to-blue-500 bg-clip-text text-center">
-                Professional Journey
+                Parcours professionnel
               </h2>
               <div className="absolute inset-0 -z-10 bg-gradient-to-r from-cyan-500/20 to-purple-500/20 blur-3xl rounded-full" />
             </div>
             <p className="text-lg md:text-xl text-gray-400 font-medium tracking-wide text-center max-w-2xl">
-              "Transforming ideas into digital reality, one project at a time"
+              Transformer des besoins concrets en applications web utiles
             </p>
           </div>
 
@@ -132,6 +132,14 @@ const ExperienceSection = () => {
       </div>
     </>
   );
+};
+
+ExperienceCard.propTypes = {
+  title: PropTypes.string.isRequired,
+  company: PropTypes.string.isRequired,
+  period: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  icon: PropTypes.elementType.isRequired,
 };
 
 export default ExperienceSection;

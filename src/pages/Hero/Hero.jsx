@@ -42,31 +42,34 @@ const GridBackground = () => {
 
 export default function Hero() {
   const words = [
-    "Full-Stack Developer & UI/UX Enthusiast",
-    "JavaScript Developer & Creator of Olova.js",
-    "Learning MARN Stack",
-    "Linux & GitHub for DevOps Enthusiast",
+    "Developpeur FullStack",
+    "Master Genie Logiciel",
+    "ReactJS, VueJS & Node/Express",
+    "Bases de donnees SQL",
   ];
 
   const [code] = useState(`
 const profile = {
-    name: 'Nazmul Hossain',
-    title: 'Full-Stack Developer | Cloud Enthusiast | Problem Solver',
+    name: 'RAKOTONDRAZANDRY Kenny Urvano',
+    title: 'Developpeur FullStack | Genie Logiciel & Bases de Donnees',
     skills: [
-        'React', 'NextJS', 'Redux', 'Express',
-        'MySQL', 'MongoDB', 'Docker', 'AWS', 'TypeScript',
-        'GraphQL', 'Git', 'Linux', 'Discord Development'
+        'VueJS', 'ReactJS', 'Express.JS',
+        'HTML5', 'CSS3', 'Bootstrap',
+        'JavaScript', 'SQL',
+        'MySQL', 'PostgreSQL', 'Sequelize',
+        'Git', 'GitHub'
     ],
-    hardWorker: true,
+    teamPlayer: true,
+    rigorous: true,
     quickLearner: true,
     problemSolver: true,
-    yearsOfExperience: 4, 
+    education: 'Master 2 en cours',
     hireable: function() {
         return (
-            this.hardWorker &&
+            this.teamPlayer &&
+            this.rigorous &&
             this.problemSolver &&
-            this.skills.length >= 5 &&
-            this.yearsOfExperience >= 3
+            this.skills.length >= 5
         );
     }
 };
@@ -178,7 +181,7 @@ const profile = {
               <div className="inline-flex items-center gap-2 px-3 sm:px-4 py-2 rounded-full bg-gray-800/50 backdrop-blur-sm border border-gray-700/50 mb-6 sm:mb-8 animate__animated animate__fadeInDown animate__delay-1s">
                 <div className="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></div>
                 <span className="text-gray-300 text-xs sm:text-sm font-medium">
-                  Welcome to my universe
+                  Bienvenue sur mon portfolio
                 </span>
               </div>
 
@@ -190,7 +193,7 @@ const profile = {
                     I&apos;m
                     <span className="typing-effect gradient-text">
                       {" "}
-                      Nazmul Hossain
+                      Kenny Urvano
                     </span>
                   </span>
                 </h1>
@@ -211,8 +214,9 @@ const profile = {
               {/* Description */}
               <div className="relative mb-8 sm:mb-12 max-w-xl">
                 <p className="text-base sm:text-xl text-gray-300/90 leading-relaxed">
-                  JavaScript lover 🚀 | OlovaJS creator 🔧 | Crafting frameworks
-                  and coding the future 💻✨
+                  Developpeur FullStack en Master Genie Logiciel, je transforme
+                  des besoins metier en applications web claires, utiles et
+                  maintenables.
                 </p>
               </div>
 
@@ -220,7 +224,9 @@ const profile = {
               <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 animate__animated animate__fadeInUp animate__delay-2s">
                 {/* View Projects Button */}
                 <a
-                  href="https://github.com/seraprogrammer"
+                  href="https://github.com/KennyU13"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="group relative inline-flex items-center justify-center gap-3 bg-gradient-to-r from-blue-500 to-teal-400 p-0.5 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-[0_0_2rem_-0.5rem_#60A5FA]"
                 >
                   <span className="block w-full px-6 sm:px-8 py-3 sm:py-4 rounded-[11px] bg-gray-900 transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-blue-500 group-hover:to-teal-400">
@@ -233,7 +239,9 @@ const profile = {
 
                 {/* Contact Button */}
                 <a
-                  href="#"
+                  href="/CV.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="group relative inline-flex items-center justify-center gap-3 p-0.5 rounded-xl bg-gradient-to-r from-gray-800 to-gray-700 transition-all duration-300 hover:scale-105 hover:shadow-[0_0_2rem_-0.5rem_#60A5FA]"
                 >
                   <span className="block w-full px-6 sm:px-8 py-3 sm:py-4 rounded-[11px] bg-gray-900 border border-gray-700/50 transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-gray-800 group-hover:to-gray-700">
@@ -249,7 +257,7 @@ const profile = {
               <div className="hidden lg:block absolute left-[5.5rem] top-[2.3rem] animate-float-slow">
                 <div className="px-4 py-2 rounded-lg bg-purple-500/10 backdrop-blur-sm border border-purple-500/20 text-purple-400">
                   <i className="fas fa-wand-magic-sparkles"></i>&nbsp;&nbsp;UI
-                  Magic
+                  Web Apps
                 </div>
               </div>
               <div className="hidden lg:block absolute right-10 top-20 animate-float">

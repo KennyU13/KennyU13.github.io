@@ -1,13 +1,5 @@
-import React, { useState } from "react";
-import EducationLoader from "@/components/ui/EducationLoader";
-import {
-  Star,
-  Award,
-  Calendar,
-  BookOpen,
-  GraduationCap,
-  Trophy,
-} from "lucide-react";
+import { useState } from "react";
+import { Award, Calendar, BookOpen, Trophy } from "lucide-react";
 import { motion } from "framer-motion";
 
 const EducationSection = () => {
@@ -15,24 +7,34 @@ const EducationSection = () => {
 
   const educationData = [
     {
-      degree: "Secondary School Certificate (SSC)",
-      school: "Natore Textile Institute",
-      mascot: "📘",
-      year: "2019-2021",
-      achievements: ["GPA: 4.89", "Subject: Science"],
-      skills: ["Mathematics", "Physics", "Chemistry", "Biology"],
+      degree: "Master 2 - Genie Logiciel et Bases de Donnees",
+      school: "Ecole Nationale d'Informatique, Fianarantsoa",
+      mascot: "M2",
+      year: "Depuis 2025",
+      achievements: ["Formation en cours", "Specialisation GLBD"],
+      skills: ["Genie logiciel", "Bases de donnees", "Architecture", "Projet logiciel"],
       description:
-        "Focused on core science subjects with emphasis on practical laboratory work and scientific research methodologies.",
+        "Approfondissement des pratiques de conception, developpement, bases de donnees et conduite de projets informatiques.",
     },
     {
-      degree: "Higher Secondary Certificate (HSC)",
-      school: "Dottopara Model Degree College",
-      mascot: "📗",
-      year: "2021-2023",
-      achievements: ["GPA: 4.25", "Subject: Arts"],
-      skills: ["Literature", "Social Studies", "Economics", "History"],
+      degree: "Master 1 - Genie Logiciel et Bases de Donnees",
+      school: "Ecole Nationale d'Informatique, Fianarantsoa",
+      mascot: "M1",
+      year: "2024 - 2025",
+      achievements: ["Cycle Master", "Parcours GLBD"],
+      skills: ["JavaScript", "SQL", "Modelisation", "Developpement web"],
       description:
-        "Developed strong analytical and critical thinking skills through comprehensive study of humanities and social sciences.",
+        "Renforcement des bases en developpement logiciel, analyse, modelisation et gestion de donnees.",
+    },
+    {
+      degree: "Licence - Genie Logiciel et Bases de Donnees",
+      school: "Ecole Nationale d'Informatique, Fianarantsoa",
+      mascot: "L3",
+      year: "2021 - 2024",
+      achievements: ["Diplome de licence", "Projets web pratiques"],
+      skills: ["HTML5", "CSS3", "VueJS", "Express.JS"],
+      description:
+        "Acquisition des fondamentaux du genie logiciel, du developpement web et des bases de donnees relationnelles.",
     },
   ];
 
@@ -60,7 +62,6 @@ const EducationSection = () => {
 
   return (
     <section className="min-h-screen relative overflow-hidden py-40 bg-[#04081A]">
-      {/* Grid Background */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-grid-white/[0.05] bg-[length:50px_50px]" />
         <div className="absolute inset-0 bg-gradient-to-t from-[#04081A] via-transparent to-[#04081A]" />
@@ -75,11 +76,11 @@ const EducationSection = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-teal-400 to-blue-500 bg-clip-text text-transparent mb-6">
-            Educational Journey
+            Formation
           </h2>
           <p className="text-gray-300 max-w-2xl mx-auto text-lg">
-            Discover how academic excellence shapes innovative thinking and
-            professional growth.
+            Mon parcours academique en Genie Logiciel et Bases de Donnees a
+            l Ecole Nationale d Informatique de Fianarantsoa.
           </p>
         </motion.div>
 
@@ -87,7 +88,7 @@ const EducationSection = () => {
           variants={containerVariants}
           initial="hidden"
           animate="visible"
-          className="grid grid-cols-1 md:grid-cols-2 gap-8"
+          className="grid grid-cols-1 md:grid-cols-3 gap-8"
         >
           {educationData.map((edu, index) => (
             <motion.div
@@ -104,7 +105,9 @@ const EducationSection = () => {
               <div className="space-y-6">
                 <div className="space-y-2">
                   <div className="flex items-center gap-3">
-                    <span className="text-3xl">{edu.mascot}</span>
+                    <span className="text-3xl text-teal-300 font-black">
+                      {edu.mascot}
+                    </span>
                     <h3 className="text-2xl font-bold text-white">
                       {edu.degree}
                     </h3>
@@ -126,7 +129,7 @@ const EducationSection = () => {
                 <div className="space-y-3">
                   <h4 className="text-sm font-semibold text-white flex items-center gap-2">
                     <Trophy className="w-4 h-4 text-yellow-500" />
-                    Key Achievements
+                    Points cles
                   </h4>
                   <div className="flex flex-wrap gap-2">
                     {edu.achievements.map((achievement, i) => (
