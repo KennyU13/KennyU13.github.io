@@ -4,6 +4,26 @@ Portfolio personnel de **RAKOTONDRAZANDRY Kenny Urvano**, developpeur FullStack 
 
 Le site presente mon profil, mes competences, mon parcours, mes projets GitHub, ma formation et mes informations de contact.
 
+## Demo
+
+![Demo du portfolio](https://opengraph.githubassets.com/1/KennyU13/portfolio-main)
+
+Demo locale avec Vite:
+
+```text
+http://localhost:5173
+```
+
+Demo production avec Docker/Nginx:
+
+```text
+http://localhost:8080
+```
+
+Repository GitHub:
+
+[https://github.com/KennyU13/portfolio-main](https://github.com/KennyU13/portfolio-main)
+
 ## Sections
 
 - Accueil et presentation
