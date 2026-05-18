@@ -8,6 +8,12 @@ Le site presente mon profil, mes competences, mon parcours, mes projets GitHub, 
 
 ![Demo du portfolio](docs/portfolio-demo.png)
 
+## Demos Des Projets
+
+### Code-ZahIT-ENI
+
+![Demo Code-ZahIT-ENI](public/project-demos/code-zahit-eni.png)
+
 Demo locale avec Vite:
 
 ```text
@@ -58,10 +64,7 @@ Repository GitHub:
 
 - [notes-app-fullstack](https://github.com/KennyU13/notes-app-fullstack)
 - [portfolio-main](https://github.com/KennyU13/portfolio-main)
-- [RDP-Parking-Simulator](https://github.com/KennyU13/RDP-Parking-Simulator)
 - [Code-ZahIT-ENI](https://github.com/KennyU13/Code-ZahIT-ENI)
-- [JAVA_Gestion](https://github.com/KennyU13/JAVA_Gestion)
-- [PHP_Gestion](https://github.com/KennyU13/PHP_Gestion)
 - [e-resto](https://github.com/KennyU13/e-resto)
 
 ## Installation Locale

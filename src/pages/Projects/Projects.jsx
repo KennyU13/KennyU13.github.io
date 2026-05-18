@@ -39,33 +39,6 @@ const projects = [
     stack: ["React", "Vite", "Tailwind CSS", "Docker"],
     githubLink: "https://github.com/KennyU13/portfolio-main",
   },
-  {
-    title: "RDP-Parking-Simulator",
-    description:
-      "Simulation de parking realisee avec Vue et JavaScript, presentee dans mes projets GitHub pour illustrer la logique de gestion et l'interface utilisateur.",
-    image: "/project-demos/rdp-parking-simulator.png",
-    color: "#f59e0b",
-    stack: ["Vue", "JavaScript", "HTML"],
-    githubLink: "https://github.com/KennyU13/RDP-Parking-Simulator",
-  },
-  {
-    title: "JAVA_Gestion",
-    description:
-      "Application de gestion developpee en Java, orientee pratique de la programmation objet et structuration d'une application de gestion.",
-    image: "/project-demos/java-gestion.png",
-    color: "#f97316",
-    stack: ["Java", "Gestion", "OOP"],
-    githubLink: "https://github.com/KennyU13/JAVA_Gestion",
-  },
-  {
-    title: "PHP_Gestion",
-    description:
-      "Projet de gestion web construit autour de PHP, JavaScript et CSS pour travailler les bases d'une application web dynamique.",
-    image: "/project-demos/php-gestion.png",
-    color: "#777bb4",
-    stack: ["PHP", "JavaScript", "CSS"],
-    githubLink: "https://github.com/KennyU13/PHP_Gestion",
-  },
 ];
 
 export default function Projects() {
