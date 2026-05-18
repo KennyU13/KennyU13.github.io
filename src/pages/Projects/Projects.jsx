@@ -16,7 +16,7 @@ const projects = [
     title: "E-Resto Hotel",
     description:
       "Projet Bonita Studio pour la gestion des reservations hotelieres, facturation, paiement, depart des chambres, menage, verification de stock et suivi comptable journalier.",
-    image: "/project-demos/e-resto.png?v=2",
+    image: "/project-demos/e-resto.png?v=3",
     color: "#8f89ff",
     stack: ["Bonita BPM", "Java", "Processus metier"],
     githubLink: "https://github.com/KennyU13/e-resto",
