@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Award, Calendar, BookOpen, Trophy } from "lucide-react";
+import { Award, Calendar, BookOpen, Trophy, ExternalLink } from "lucide-react";
 import { motion } from "framer-motion";
 
 const EducationSection = () => {
@@ -157,6 +157,36 @@ const EducationSection = () => {
               </div>
             </motion.div>
           ))}
+        </motion.div>
+
+        <motion.div
+          variants={cardVariants}
+          initial="hidden"
+          animate="visible"
+          className="mt-8 rounded-xl border border-blue-400/20 bg-gray-900/50 p-8 backdrop-blur-sm"
+        >
+          <div className="flex flex-col gap-5 md:flex-row md:items-center md:justify-between">
+            <div>
+              <p className="text-sm font-semibold uppercase tracking-wide text-teal-400">
+                Certificat
+              </p>
+              <h3 className="mt-2 text-2xl font-bold text-white">
+                JavaScript Basic
+              </h3>
+              <p className="mt-2 text-gray-300">
+                Certification JavaScript ajoutee a mon parcours technique.
+              </p>
+            </div>
+            <a
+              href="/certificates/javascript_basic_certificate.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 rounded-lg border border-teal-400/40 bg-teal-500/10 px-5 py-3 font-semibold text-teal-300 transition hover:bg-teal-500/20"
+            >
+              <ExternalLink className="h-5 w-5" />
+              Voir le certificat
+            </a>
+          </div>
         </motion.div>
       </div>
     </section>
