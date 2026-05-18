@@ -39,6 +39,24 @@ const projects = [
     stack: ["React", "Vite", "Tailwind CSS", "Docker"],
     githubLink: "https://github.com/KennyU13/portfolio-main",
   },
+  {
+    title: "PHP_Gestion",
+    description:
+      "Projet de gestion web construit avec PHP, JavaScript et CSS pour travailler les bases d'une application web dynamique.",
+    image: "/project-demos/php-gestion.png?v=2",
+    color: "#777bb4",
+    stack: ["PHP", "JavaScript", "CSS"],
+    githubLink: "https://github.com/KennyU13/PHP_Gestion",
+  },
+  {
+    title: "Critical-Path-Method-Manager",
+    description:
+      "Application de gestion de projet autour de la methode du chemin critique pour organiser les taches, dependances et delais.",
+    image: "/project-demos/critical-path-method-manager.png",
+    color: "#22c55e",
+    stack: ["Project Management", "CPM", "Planning"],
+    githubLink: "https://github.com/KennyU13/Critical-Path-Method-Manager",
+  },
 ];
 
 export default function Projects() {
