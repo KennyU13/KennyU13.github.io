@@ -7,7 +7,7 @@ const projects = [
     title: "Notes App Fullstack",
     description:
       "Application de gestion de notes personnelles en monorepo avec API REST NestJS, PostgreSQL, Prisma, JWT, Swagger, React 18, Vite, TypeScript, Tailwind CSS et Zustand.",
-    image: "/project-demos/notes-app-fullstack.png?v=3",
+    image: "/project-demos/notes-app-fullstack.png?v=4",
     color: "#5196fd",
     stack: ["NestJS", "React", "PostgreSQL", "Prisma", "Docker"],
     githubLink: "https://github.com/KennyU13/notes-app-fullstack",

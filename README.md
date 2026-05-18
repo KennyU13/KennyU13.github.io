@@ -20,6 +20,12 @@ Demo locale avec Vite:
 http://localhost:5173
 ```
 
+Demo Docker developpement:
+
+```text
+http://localhost:4000
+```
+
 Demo production avec Docker/Nginx:
 
 ```text
@@ -100,7 +106,7 @@ docker compose up portfolio-dev
 Puis ouvrir:
 
 ```text
-http://localhost:5173
+http://localhost:4000
 ```
 
 Mode production:
