@@ -25,7 +25,7 @@ const projects = [
     title: "Code-ZahIT-ENI",
     description:
       "Projet web ENI principalement realise avec Vue, JavaScript et CSS, presente parmi les projets epingles du profil GitHub.",
-    image: "/project-demos/code-zahit-eni.png",
+    image: "/project-demos/code-zahit-eni.png?v=2",
     color: "#34d399",
     stack: ["Vue", "JavaScript", "CSS"],
     githubLink: "https://github.com/KennyU13/Code-ZahIT-ENI",
