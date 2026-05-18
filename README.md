@@ -125,7 +125,7 @@ http://localhost:8080
 
 - GitHub: [KennyU13](https://github.com/KennyU13)
 - Email: kennyurvano13@gmail.com
-- Telephone: 034 89 804 67
+- WhatsApp: [034 89 804 67](https://wa.me/261348980467)
 - Localisation: Fianarantsoa, Madagascar
 
 ## Auteur
