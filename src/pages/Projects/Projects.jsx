@@ -43,7 +43,7 @@ const projects = [
     title: "PHP_Gestion",
     description:
       "Projet de gestion web construit avec PHP, JavaScript et CSS pour travailler les bases d'une application web dynamique.",
-    image: "/project-demos/php-gestion.png?v=2",
+    image: "/project-demos/php-gestion.png?v=3",
     color: "#777bb4",
     stack: ["PHP", "JavaScript", "CSS"],
     githubLink: "https://github.com/KennyU13/PHP_Gestion",
