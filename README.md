@@ -60,15 +60,6 @@ Repository GitHub:
 - Langages: JavaScript, TypeScript, Java, PHP, Dart, Kotlin, SQL
 - Outils: Git, GitHub, Docker, Vite, CMake, Flutter
 
-## Projets
-
-- [notes-app-fullstack](https://github.com/KennyU13/notes-app-fullstack)
-- [portfolio-main](https://github.com/KennyU13/portfolio-main)
-- [Code-ZahIT-ENI](https://github.com/KennyU13/Code-ZahIT-ENI)
-- [PHP_Gestion](https://github.com/KennyU13/PHP_Gestion)
-- [Critical-Path-Method-Manager](https://github.com/KennyU13/Critical-Path-Method-Manager)
-- [e-resto](https://github.com/KennyU13/e-resto)
-
 ## Installation Locale
 
 ```bash
