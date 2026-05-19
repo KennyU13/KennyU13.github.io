@@ -12,6 +12,7 @@ const projects = [
     color: "#5196fd",
     stack: ["NestJS", "React", "PostgreSQL", "Prisma", "Docker"],
     githubLink: "https://github.com/KennyU13/notes-app-fullstack",
+    demoLink: "https://notes-app-frontend-kennyu13.onrender.com",
   },
   {
     title: "E-Resto Hotel",
@@ -130,15 +131,27 @@ function ProjectCard({ project, index }) {
           ))}
         </div>
 
-        <a
-          href={project.githubLink}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 font-semibold text-blue-300 hover:text-blue-200"
-        >
-          Voir le code
-          <span aria-hidden="true">-&gt;</span>
-        </a>
+        <div className="flex flex-wrap items-center gap-4">
+          {project.demoLink && (
+            <a
+              href={project.demoLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center rounded-lg bg-blue-500 px-4 py-2 font-semibold text-white transition hover:bg-blue-400"
+            >
+              Visiter l&apos;app
+            </a>
+          )}
+          <a
+            href={project.githubLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 font-semibold text-blue-300 hover:text-blue-200"
+          >
+            Voir le code
+            <span aria-hidden="true">-&gt;</span>
+          </a>
+        </div>
       </div>
     </motion.article>
   );
@@ -152,6 +165,7 @@ ProjectCard.propTypes = {
     color: PropTypes.string.isRequired,
     stack: PropTypes.arrayOf(PropTypes.string).isRequired,
     githubLink: PropTypes.string.isRequired,
+    demoLink: PropTypes.string,
   }).isRequired,
   index: PropTypes.number.isRequired,
 };
