@@ -8,13 +8,7 @@ Le site presente mon profil, mes competences, mon parcours, mes projets GitHub, 
 
 ![Demo du portfolio](docs/portfolio-demo.png)
 
-## Demos Des Projets
-
-### Code-ZahIT-ENI
-
-![Demo Code-ZahIT-ENI](public/project-demos/code-zahit-eni.png)
-
-Demo locale avec Vite:
+## Demo Locale
 
 ```text
 http://localhost:5173
