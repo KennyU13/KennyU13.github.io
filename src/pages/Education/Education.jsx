@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Award, Calendar, BookOpen, Trophy, ExternalLink } from "lucide-react";
 import { motion } from "framer-motion";
+import { publicAsset } from "@/lib/utils";
 
 const EducationSection = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -178,7 +179,7 @@ const EducationSection = () => {
               </p>
             </div>
             <a
-              href="/certificates/javascript_basic_certificate.pdf"
+              href={publicAsset("certificates/javascript_basic_certificate.pdf")}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 rounded-lg border border-teal-400/40 bg-teal-500/10 px-5 py-3 font-semibold text-teal-300 transition hover:bg-teal-500/20"

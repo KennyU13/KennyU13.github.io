@@ -1,13 +1,14 @@
 import { ReactLenis } from "lenis/react";
 import { motion } from "framer-motion";
 import PropTypes from "prop-types";
+import { publicAsset } from "@/lib/utils";
 
 const projects = [
   {
     title: "Notes App Fullstack",
     description:
       "Application de gestion de notes personnelles en monorepo avec API REST NestJS, PostgreSQL, Prisma, JWT, Swagger, React 18, Vite, TypeScript, Tailwind CSS et Zustand.",
-    image: "/project-demos/notes-app-fullstack.png?v=5",
+    image: publicAsset("project-demos/notes-app-fullstack.png?v=5"),
     color: "#5196fd",
     stack: ["NestJS", "React", "PostgreSQL", "Prisma", "Docker"],
     githubLink: "https://github.com/KennyU13/notes-app-fullstack",
@@ -16,7 +17,7 @@ const projects = [
     title: "E-Resto Hotel",
     description:
       "Projet Bonita Studio pour la gestion des reservations hotelieres, facturation, paiement, depart des chambres, menage, verification de stock et suivi comptable journalier.",
-    image: "/project-demos/e-resto.png?v=3",
+    image: publicAsset("project-demos/e-resto.png?v=3"),
     color: "#8f89ff",
     stack: ["Bonita BPM", "Java", "Processus metier"],
     githubLink: "https://github.com/KennyU13/e-resto",
@@ -25,7 +26,7 @@ const projects = [
     title: "Code-ZahIT-ENI",
     description:
       "Projet web ENI principalement realise avec Vue, JavaScript et CSS, presente parmi les projets epingles du profil GitHub.",
-    image: "/project-demos/code-zahit-eni.png?v=2",
+    image: publicAsset("project-demos/code-zahit-eni.png?v=2"),
     color: "#34d399",
     stack: ["Vue", "JavaScript", "CSS"],
     githubLink: "https://github.com/KennyU13/Code-ZahIT-ENI",
@@ -34,7 +35,7 @@ const projects = [
     title: "Portfolio Main",
     description:
       "Portfolio personnel construit avec React, Vite, Tailwind CSS v3 et Docker pour presenter mon profil, mes competences, mon parcours et mes projets.",
-    image: "/project-demos/portfolio-main.png",
+    image: publicAsset("project-demos/portfolio-main.png"),
     color: "#ed649e",
     stack: ["React", "Vite", "Tailwind CSS", "Docker"],
     githubLink: "https://github.com/KennyU13/portfolio-main",
@@ -43,7 +44,7 @@ const projects = [
     title: "PHP_Gestion",
     description:
       "Projet de gestion web construit avec PHP, JavaScript et CSS pour travailler les bases d'une application web dynamique.",
-    image: "/project-demos/php-gestion.png?v=4",
+    image: publicAsset("project-demos/php-gestion.png?v=4"),
     color: "#777bb4",
     stack: ["PHP", "JavaScript", "CSS"],
     githubLink: "https://github.com/KennyU13/PHP_Gestion",
@@ -52,7 +53,7 @@ const projects = [
     title: "Critical-Path-Method-Manager",
     description:
       "Application de gestion de projet autour de la methode du chemin critique pour organiser les taches, dependances et delais.",
-    image: "/project-demos/critical-path-method-manager.png?v=2",
+    image: publicAsset("project-demos/critical-path-method-manager.png?v=2"),
     color: "#22c55e",
     stack: ["Project Management", "CPM", "Planning"],
     githubLink: "https://github.com/KennyU13/Critical-Path-Method-Manager",
