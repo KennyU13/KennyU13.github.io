@@ -15,8 +15,8 @@ export default function About() {
                   src={HeroImg}
                   className="rounded-[15px] shadow block object-cover aspect-[4/5] w-full"
                   alt="RAKOTONDRAZANDRY Kenny Urvano"
-                  width={1207}
-                  height={929}
+                  width={1050}
+                  height={1350}
                 />
               </div>
             </div>
