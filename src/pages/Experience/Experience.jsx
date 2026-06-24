@@ -56,18 +56,18 @@ const ExperienceSection = () => {
     {
       icon: Network,
       title: "Developpeur FullStack - MiniSocialNetwork",
-      company: "Projet GitHub - BackMiniSocialNetwork",
+      company: "Projet academique - BackMiniSocialNetwork",
       period: "2026",
       description:
-        "Developpement du backend d'un mini reseau social avec JavaScript et une architecture API orientee fonctionnalites sociales. Projet disponible sur GitHub : BackMiniSocialNetwork.",
+        "Developpement du backend d'un mini reseau social avec JavaScript et une architecture API orientee fonctionnalites sociales. Projet academique : BackMiniSocialNetwork.",
     },
     {
       icon: Layers,
-      title: "Developpeur FullStack - notes-app-fullstack",
-      company: "Projet GitHub - notes-app-fullstack",
+      title: "Projet academique - Pipeline CI/CD",
+      company: "Application web Flask + PostgreSQL",
       period: "2026",
       description:
-        "Creation d'une application fullstack de gestion de notes avec TypeScript, React, NestJS, PostgreSQL, Prisma, JWT, Swagger et Docker.",
+        "Mise en place d'une chaine CI/CD complete pour une application web simple : push GitHub, webhook Jenkins, analyse SonarQube, build Docker, push vers Nexus, deploiement Docker Compose et notification de fin de pipeline. Stack : Python, Flask, PostgreSQL, Docker, Jenkins, GitHub, SonarQube, Nexus.",
     },
     {
       icon: Code2,
