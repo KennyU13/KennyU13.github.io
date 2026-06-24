@@ -13,7 +13,7 @@ const EducationSection = () => {
       mascot: "M2",
       year: "Depuis 2025",
       achievements: ["Formation en cours", "Specialisation GLBD"],
-      skills: ["Genie logiciel", "Bases de donnees", "Architecture", "Projet logiciel"],
+      skills: ["Architecture logicielle", "Methode agile", "DevOps", "CI/CD", "Docker", "Gestion de projet logiciel", "Qualité logicielle"],
       description:
         "Approfondissement des pratiques de conception, developpement, bases de donnees et conduite de projets informatiques.",
     },
@@ -23,7 +23,7 @@ const EducationSection = () => {
       mascot: "M1",
       year: "2024 - 2025",
       achievements: ["Cycle Master", "Parcours GLBD"],
-      skills: ["JavaScript", "SQL", "Modelisation", "Developpement web"],
+      skills: ["JavaScript", "Java", "Spring Boot", "Modelisation", "Developpement web", "Bases de donnees"],
       description:
         "Renforcement des bases en developpement logiciel, analyse, modelisation et gestion de donnees.",
     },
@@ -33,7 +33,7 @@ const EducationSection = () => {
       mascot: "L3",
       year: "2021 - 2024",
       achievements: ["Diplome de licence", "Projets web pratiques"],
-      skills: ["HTML5", "CSS3", "VueJS", "Express.JS"],
+      skills: ["HTML5", "CSS3", "VueJS", "Developpement web", "Modelisation", "Conception UML", "Bases de donnees"],
       description:
         "Acquisition des fondamentaux du genie logiciel, du developpement web et des bases de donnees relationnelles.",
     },
