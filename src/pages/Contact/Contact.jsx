@@ -51,13 +51,15 @@ export default function Contact() {
       return;
     }
 
-    const subject = encodeURIComponent(formData.subject);
-    const body = encodeURIComponent(
-      `Nom: ${formData.name}\nEmail: ${formData.email}\n\n${formData.message}`
-    );
+    const messageText = `Sujet: ${formData.subject}\nNom: ${formData.name}\nEmail: ${formData.email}\n\n${formData.message}`;
 
-    window.location.href = `mailto:kennyurvano13@gmail.com?subject=${subject}&body=${body}`;
-    setStatus("Votre application email va s'ouvrir pour envoyer le message.");
+    try {
+      await navigator.clipboard.writeText(messageText);
+      setStatus("Message copie. Vous pouvez me l'envoyer par email ou WhatsApp.");
+    } catch {
+      setStatus("Message pret. Copiez-le puis envoyez-le par email ou WhatsApp.");
+    }
+
     setErrors({});
   };
 
@@ -205,7 +207,7 @@ export default function Contact() {
                   type="submit"
                   className="w-full bg-gradient-to-r from-blue-500 to-purple-500 text-white py-3 px-6 rounded-lg font-semibold flex items-center justify-center space-x-2 hover:opacity-90 transition-opacity"
                 >
-                  <span>Send Message</span>
+                  <span>Copier le message</span>
                   <Send className="w-4 h-4" />
                 </button>
               </form>
